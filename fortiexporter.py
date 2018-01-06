@@ -1,5 +1,5 @@
 # Fortigate 5.2.x Policy Exporter v1.0
-# Put the output of the "show firewall policy" command into the same directory of this script.
+# Put the output of the "config firewall policy / show" commands into the same directory of this script as fw.txt.
 # It will create a file called output.csv in the same directory.
 
 from __future__ import print_function
